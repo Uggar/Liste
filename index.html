@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Ma liste</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="monForm">
+      <h1 @click="masquer">{{ titre }}</h1>
+      <h2 v-if="visible">Remplir la liste (cliquer sur le titre pour masquer)</h2>
+
+      <input type="text" v-model="prenom" v-bind:class="prenom ? 'correct' : 'erreur'" placeholder="Entrez votre prénom">
+      <input type="text" v-model="nom" v-bind:class="nom ? 'correct' : 'erreur'" placeholder="Entrez votre nom">
+      <p v-if="erreur" class="error-msg">Veuillez compléter le formulaire</p>
+
+      <input @click="ajouter" type="submit" value="Ajoutez">
+      <input @click="retirer" type="submit" value="Retirer"><br>
+
+      <ul>
+        <li v-for="truc in liste" :key="truc">
+          {{ truc }}
+        </li>
+      </ul>
+    </div>
+    <script src="config.js"></script>
+  </body>
+</html>
