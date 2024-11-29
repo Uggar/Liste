@@ -25,11 +25,3 @@ Ce fichier JavaScript contient l'instance Vue avec les propriétés de données,
 
 ### 3. `styles.css`
 Le fichier CSS pour styliser l'application avec une interface moderne et épurée, y compris les éléments du formulaire, les boutons et le style des messages d'erreur.
-
-## Installation
-
-Pour exécuter ce projet en local, suivez ces étapes :
-
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/votre-nom-utilisateur/ma-liste-vue.git
