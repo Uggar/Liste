@@ -1,35 +1,35 @@
 # Ma Liste Vue.js Application
 
-This is a simple Vue.js application that allows users to add and remove names from a list. It includes a form with fields for entering a first name and last name, and dynamically updates the list based on the input.
+Il s'agit d'une application simple avec Vue.js qui permet aux utilisateurs d'ajouter et de retirer des noms d'une liste. Elle comprend un formulaire avec des champs pour entrer un prénom et un nom de famille, et la liste est mise à jour dynamiquement en fonction des entrées.
 
-## Features
+## Fonctionnalités
 
-- **Add Names**: Users can add a first name and last name to a list.
-- **Remove Names**: Users can remove the last name added to the list.
-- **Error Handling**: Displays error messages if the user hasn't entered both a first name and last name.
-- **Visibility Toggle**: The form can be hidden or shown by clicking the title.
+- **Ajouter des noms** : Les utilisateurs peuvent ajouter un prénom et un nom de famille à une liste.
+- **Retirer des noms** : Les utilisateurs peuvent retirer le dernier nom ajouté à la liste.
+- **Gestion des erreurs** : Affichage des messages d'erreur si l'utilisateur n'a pas rempli les deux champs (prénom et nom de famille).
+- **Basculer la visibilité** : Le formulaire peut être caché ou affiché en cliquant sur le titre.
 
-## Project Structure
+## Structure du projet
 
-The project consists of three main files:
+Le projet est composé de trois fichiers principaux :
 
-- **index.html**: The HTML file that contains the structure of the form and the list.
-- **config.js**: The JavaScript file where the Vue app is initialized and methods are defined.
-- **styles.css**: The CSS file that defines the styling for the app.
+- **index.html** : Le fichier HTML qui contient la structure du formulaire et de la liste.
+- **config.js** : Le fichier JavaScript où l'application Vue est initialisée et les méthodes sont définies.
+- **styles.css** : Le fichier CSS qui définit le style de l'application.
 
 ### 1. `index.html`
-The HTML file contains the app's layout and binds Vue.js features, such as data binding with `v-model` and event handling with `@click`.
+Le fichier HTML contient la mise en page de l'application et lie les fonctionnalités de Vue.js, telles que la liaison des données avec `v-model` et la gestion des événements avec `@click`.
 
 ### 2. `config.js`
-This JavaScript file contains the Vue instance with data properties, methods for adding/removing names, and logic for toggling form visibility.
+Ce fichier JavaScript contient l'instance Vue avec les propriétés de données, les méthodes pour ajouter/retirer des noms et la logique pour basculer la visibilité du formulaire.
 
 ### 3. `styles.css`
-CSS file to style the app with a modern and clean interface, including form elements, buttons, and error message styling.
+Le fichier CSS pour styliser l'application avec une interface moderne et épurée, y compris les éléments du formulaire, les boutons et le style des messages d'erreur.
 
 ## Installation
 
-To run this project locally, follow these steps:
+Pour exécuter ce projet en local, suivez ces étapes :
 
-1. Clone the repository:
+1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/your-username/ma-liste-vue.git
+   git clone https://github.com/votre-nom-utilisateur/ma-liste-vue.git
